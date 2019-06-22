@@ -174,6 +174,7 @@ class HomePageState extends State<HomePage> {
             child: GoogleMap(
               myLocationEnabled: true,
               myLocationButtonEnabled: false,
+              compassEnabled: true,
               mapType: MapType.normal,
               initialCameraPosition:  CameraPosition(target: LatLng(-0.15566149999999998, -78.46381629999999), zoom: 12),
               onMapCreated: (GoogleMapController controller) {
