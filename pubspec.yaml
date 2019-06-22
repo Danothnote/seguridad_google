@@ -17,6 +17,7 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  geolocator: '^5.0.1'
   permission_handler: '^3.1.0'
   font_awesome_flutter:
   google_maps_flutter: ^0.5.17

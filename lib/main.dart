@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Seguridad Turística',
       theme: ThemeData(
-        primaryColor: Color(0xff6200ee),
+        primaryColor: Color(0xFF3863F3),
       ),
       home: HomePage(),
     );
